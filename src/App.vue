@@ -10,8 +10,8 @@
         </tr>
       </thead>
       <tbody>
-        <tr :key="column" v-for="column in columns">
-          <td :key="header.display" v-for="header in headers">
+        <tr :key="column.name" v-for="column in columns">
+          <td :key="index" v-for="(header, index) in headers">
             {{ column[header.name] }}
           </td>
         </tr>
@@ -152,6 +152,16 @@ export default {
         }
       ]
     }
+  },
+  methods: {
+    output() {
+      console.log(this.columns[2]);
+      console.log(this.columns[4].quantity);
+      return undefined
+    }
+  },
+  mounted() {
+    this.output()
   }
 }
 </script>

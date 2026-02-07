@@ -1,4 +1,5 @@
 # database-test
+Предварительно используйте migrate-db.py чтобы накатить миграцию БД
 
 ## Project setup
 ```

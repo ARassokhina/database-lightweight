@@ -1,4 +1,4 @@
-from app import app, db, Item # Импортируем app и db из вашего файла app.py
+from app import app, db, Item # Импортируем app и db из файла app.py
 
 def create_db_and_tables():
     with app.app_context():

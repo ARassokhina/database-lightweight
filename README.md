@@ -1,4 +1,5 @@
-# database-test
+# database-lightweight
+Минималистичное CRUD-приложение базы данных.
 Приложение состоит из 3 компонент: фронтенд JS (Vue 3), бэкенд Python (Flask), БД PostgreSQL. Предварительно запустите серверную часть 
 ```
 python app.py
